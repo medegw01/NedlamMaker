@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="60dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Stationary Belt Sander"
+            android:id="@+id/sbs"
+            android:textColor="#5a0f0b"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:typeface="serif"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/image_sbs"
+            android:background="@drawable/stationarybeltsander" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Tool description:\na sander used in shaping and finishing wood and other materials. It consists of an electric motor that turns a pair of drums on which a continuous loop of sandpaper is mounted. Belt sanders can have a very aggressive action on wood and are normally used only for the beginning stages of the sanding process, or used to rapidly remove material. Sometimes they are also used for removing paints or finishes from wood. Fitted with fine grit sandpaper, a belt sander can be used to achieve a completely smooth surface.\nOperation:\nDO NOT USE! If you need something sanded on the stationary belt sander ask someone experienced (likes of Miki or Walter) for assistance.
+"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

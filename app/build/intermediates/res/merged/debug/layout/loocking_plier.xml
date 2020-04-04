@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="60dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Locking Pliers"
+            android:id="@+id/lp"
+            android:textColor="#5a0f0b"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:typeface="serif"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/image_lp"
+            android:background="@drawable/lockingplier"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Tool Description: \nPliers that can be locked into position, using an over-center action. One side of the handle includes a bolt that is used to adjust the spacing of the jaws, the -other side of the handle (especially in larger models) often includes a lever to push the two sides of the handles apart to unlock the pliers.\nOperation:\n The jaws are set to a size slightly smaller than what is to be gripped by turning the bolt in one handle with the jaws closed. When the jaws are opened and the handles squeezed together, they move a lever over its center point and lock the jaw of the pliers onto the gripped object. A typical usage would be to hold metal parts in place for welding. They are also invaluable for holding a nut or bolt that has been 'rounded' or as temporary levers/knobs on equipment and machinery.
+"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

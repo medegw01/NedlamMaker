@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="60dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Rotary Tool (Dremel)"
+            android:id="@+id/rt"
+            android:textColor="#5a0f0b"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:typeface="serif"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/image_rt"
+            android:background="@drawable/rotattingtool"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Tool Description:\na handheld power tool used for grinding, sanding, honing, polishing, or machining material. The head of the tool rotates rapidly and with different attachments it can be used for many different applications.\nOperation -\n Always wear safety glasses and wear a mask when cutting. Make sure tool is turned off when changing attachment.\nChanging attachments - With the head furthest away from you press down the button closest to the head and use a wrench to turn the head clockwise to loosen. If there is already an attachment remove it by pulling away from the head in a straight forward motion. Insert a new attachment by placing the stem of the attachment into the head and gently press down on the attachment until it can no longer go any further. With the head furthest away from you, press down the button closest to the head and use a wrench to turn the head counterclockwise until it can no longer turn.
+            Operation -\n There is a speed slider located toward the base of the tool. Slide the speed slider to the desired speed. Start slow and increase the speed as necessary. Use the attachment for its purpose, ie. cutting, polishing, sanding, etc.
+"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

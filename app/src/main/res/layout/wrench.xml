@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="60dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Wrench"
+            android:id="@+id/wrench"
+            android:textColor="#5a0f0b"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:typeface="serif"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/image_wr"
+            android:background="@drawable/wrench"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Tool Description:\n a tool used to provide grip and mechanical advantage in applying torque to turn objects—usually rotary fasteners, such as nuts and bolts—or keep them from turning. There are different types of wrenches, ie. alan (hexagonal head), socket, open ended, etc.\nOperation - \nFind the wrench size for your application based on the size of the nut or bolt’s head. Slide the head of the wrench on the nut or bolt and turn clockwise to loosen or counter-clockwise to tighten.
+"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

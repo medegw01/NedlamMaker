@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="60dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Scroll Saw"
+            android:id="@+id/scrollsaw"
+            android:textColor="#5a0f0b"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:typeface="serif"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/image_scrollsaw"
+            android:background="@drawable/scrollsaw"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Tool description:\na small electric saw used to cut intricate curves in wood, metal, or other materials. The fineness of its blade allows it to cut more delicately than a power jigsaw, and more easily than a hand coping saw. Like those tools, it is capable of creating curves with edges, by pivoting its table.\nOperation:\nYou MUST wear safety glasses when operating this tool. If cutting material that is not wood ask a supervisor (likes of Miki, Walter, Brian, etc.) for approval. Check that the blade is tightly secured. Clear off the cutting surface before starting. Keep body parts away from the blade and make sure that if the wood were to suddenly disappear you would not get injured. Guide the wood through the blade but do not force it through.
+"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

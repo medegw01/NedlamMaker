@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="60dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Drill Press"
+            android:id="@+id/drillpress"
+            android:textColor="#5a0f0b"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:typeface="serif"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/image_drillpress"
+            android:background="@drawable/drillpress"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Tool description:\nA drill press (also known as a pedestal drill, pillar drill, or bench drill) is a fixed style of drill that may be mounted on a stand or bolted to the floor or workbench. A drill press consists of a base, column (or pillar), table, spindle (or quill), and drill head, usually driven by an induction motor. The head has a set of handles (usually 3) radiating from a central hub that, when turned, move the spindle and chuck vertically, parallel to the axis of the column.\nOperation:\nYou MUST wear safety glasses when operating this tool. Make sure the table clear before starting. To add or remove a bit loosen the chuck and remove the bit that is present and replace with the desired bit. Make sure the bit is centered and tighten the chuck. Use the key to further tighten the chuck. Turn the drill press on and use the handles to slowly move the drill head down. When drilling material make sure to go slow and if the workpiece is thick pull the drill head up to clear out some material."/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/floorplan"
+    android:id="@+id/floorplan_layout"
+    android:outlineProvider="background"
+    android:foregroundGravity="center">
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="65dp"
+        android:layout_height="71dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/triangle_area"
+        android:layout_x="258dp"
+        android:layout_y="65dp" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="76dp"
+        android:layout_height="99dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/woodwork_area"
+        android:layout_x="137dp"
+        android:layout_y="55dp" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="94dp"
+        android:layout_height="55dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/electronic_area"
+        android:layout_x="238dp"
+        android:layout_y="263dp" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="85dp"
+        android:layout_height="56dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/brainstorming_area"
+        android:layout_x="246dp"
+        android:layout_y="327dp" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="106dp"
+        android:layout_height="64dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/work_area"
+        android:layout_x="90dp"
+        android:layout_y="288dp" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:id="@+id/storage_area"
+        android:layout_x="41dp"
+        android:layout_y="411dp" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="37dp"
+        android:layout_height="75dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/drill_area"
+        android:layout_x="288dp"
+        android:layout_y="172dp" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="39dp"
+        android:layout_height="68dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/metresaw_area"
+        android:layout_x="41dp"
+        android:layout_y="153dp" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="101dp"
+        android:layout_height="33dp"
+        android:text="tools"
+        android:background="@android:color/transparent"
+        android:id="@+id/tools_area"
+        android:layout_x="136dp"
+        android:layout_y="199dp" />
+
+</AbsoluteLayout>

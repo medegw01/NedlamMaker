@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="60dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Screwdriver"
+            android:id="@+id/screwdriver"
+            android:textColor="#5a0f0b"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:typeface="serif"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/image_srewdriver"
+            android:background="@drawable/screwdriver"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Tool description:\na hand tool for turning (driving or removing) screws. A typical simple screwdriver has a handle and a shaft, and a tip that the user inserts into the screw head to turn it. There are two main types classified by the head, philips and flat. Philips head screwdrivers have a head that look like plus sign and flat head screwdrivers have a head that look like a minus sign.\nOperation -\n find the screwdriver that fits the socket of the screw you’re going to use. Insert the head of the screwdriver into the socket on the head of the screw. Press down on the screw with the screwdriver and rotate counter clockwise to loosen and clockwise to tighten.
+
+"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

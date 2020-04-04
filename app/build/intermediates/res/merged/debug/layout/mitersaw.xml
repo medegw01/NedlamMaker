@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="60dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Mitre Saw"
+            android:id="@+id/mitersaw"
+            android:textColor="#5a0f0b"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:typeface="serif"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/image_mitersaw"
+            android:background="@drawable/mitresaw"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Tool description:\nA power miter saw, also known as a drop saw, is a power tool used to make a quick, accurate crosscut in a workpiece at a selected angle. Common uses include frame operations and the cutting of molding. The miter saw makes cuts by pulling a spinning circular saw blade down onto a workpiece in a short, controlled motion. The workpiece is typically held against a fence, which provides a precise cutting angle between the plane of the blade and the plane of the longest workpiece edge. In standard position, this angle is fixed at 90°.\nOperation:\nYou MUST wear safety glasses when operating this tool. Make sure the area is clear before starting. Ask for approval from a supervisor (ie. Miki, Walter, Brian, etc) if cutting anything other than wood. Firmly hold material flat against fence making sure that no body parts are in the travel path of the saw blade. Pull down the handle, but DO NOT pull the trigger. Only pull the trigger when you are sure you want to cut, but make sure the blade is not touching the material before starting. Pull the blade down in one swift motion and let go of the trigger making sure the blade has stopped before pulling the blade back up.
+"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="60dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Drill"
+            android:id="@+id/drill"
+            android:textColor="#5a0f0b"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:typeface="serif"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/image_drill"
+            android:background="@drawable/drill"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Tool Description:\na tool fitted with a cutting tool attachment or driving tool attachment, usually a drill bit or driver bit, used for boring holes in various materials or fastening various materials together with the use of fasteners. The attachment is gripped by a chuck at one end of the drill and rotated while pressed against the target material.\nOperation\ni. Changing bits -\nWith the head furthest away from you turn the head clockwise to loosen. If there is already a drill bit attached, remove it by pulling away from the head in a straight forward motion. Insert a new bit by placing the stem of the bit into the head and gently press down on the bit until it can no longer go any further or is at the desired depth. With the head furthest away from you, turn the head counterclockwise until it can no longer turn and the bit is centered and secured.\nii. Operation -\nthere is a button or slider near the trigger that determines the rotation of the head, set it to the desired rotation direction. Press the drill bit onto the surface you want to drill or into the socket of the screw you wish to screw in. Pull the trigger to begin screwing/drilling.
+"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

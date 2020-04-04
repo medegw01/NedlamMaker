@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.nedlamworkshop"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-feature android:name="android.hardware.camera2" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/makerlab"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.user.nedlamworkshop.IdeaBoard.view_IdeaA" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.user.nedlamworkshop.intro.login1" >
+        </activity>
+        <activity android:name="com.example.user.nedlamworkshop.intro.login2" >
+        </activity>
+        <activity android:name="com.example.user.nedlamworkshop.others" >
+        </activity>
+        <activity android:name="com.example.user.nedlamworkshop.events" >
+        </activity>
+        <activity android:name="com.example.user.nedlamworkshop.projects" >
+        </activity>
+        <activity android:name="com.example.user.nedlamworkshop.IdeaBoard.ViewImage" >
+        </activity>
+        <activity android:name="com.example.user.nedlamworkshop.IdeaBoard.camera" >
+        </activity>
+    </application>
+
+</manifest>

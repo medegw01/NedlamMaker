@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="60dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Pliers"
+            android:id="@+id/pliers"
+            android:textColor="#5a0f0b"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:typeface="serif"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/image_pliers"
+            android:background="@drawable/pliers"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Tool description:\na hand tool used to hold objects firmly. Generally, pliers consist of a pair of metal first-class levers joined at a fulcrum positioned closer to one end of the levers, creating short jaws on one side of the fulcrum, and longer handles on the other side. This arrangement creates a mechanical advantage, allowing the force of the hand's grip to be amplified and focused on an object with precision. The jaws can also be used to manipulate objects too small or unwieldy to be manipulated with the fingers.\nOperation:\n use the pliers to get a better grip. Put the jaws on what you’re trying to grip and squeeze the handles.
+"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
